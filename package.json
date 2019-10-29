@@ -1,0 +1,23 @@
+{
+  "name": "cleact",
+  "version": "1.0.0",
+  "description": "Tiny React Clone, Understanding how react works!",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josnoc/cleact.git"
+  },
+  "keywords": [
+    "react",
+    "react-clone"
+  ],
+  "author": "Jose Enoc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josnoc/cleact/issues"
+  },
+  "homepage": "https://github.com/josnoc/cleact#readme"
+}
