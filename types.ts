@@ -1,16 +1,10 @@
-import { Component } from './Cleact';
-
-// export interface ICleactElementProps extends IProps {
-//   children?: any; // FIXME: replace any with respected type.
-// }
+import { Component } from "./Cleact";
 
 export type PropsWithChildren<P> = P & {
   children?: any;
 };
 
-export interface IComponent<P> {
-  new (props: P): Component<P>;
-}
+export type IComponent<P> = new (props: P) => Component<P>;
 
 export type CleactUserComponent<P> = CleactSFC<P> | IComponent<P>;
 
